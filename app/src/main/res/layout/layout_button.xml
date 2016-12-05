@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <Button
+        android:id="@+id/button_replace"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="重新排列"
+        android:background="@android:color/transparent"
+        android:layout_gravity="left|bottom"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="菜单"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/menu"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="后退一步"
+        android:background="@android:color/transparent"
+        android:layout_gravity="right|bottom"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+</LinearLayout>
